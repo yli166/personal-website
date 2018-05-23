@@ -1,0 +1,217 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+.container{
+    width:90%;
+    margin-right:70px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;   /* Stay at right side*/
+    background-color: #585858; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/*meau button setting*/
+.sidenav h2{
+    width : 70%;
+    margin:auto;
+    font-weight: 900;
+    font-size: 0.7em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color:#ffffff;
+    padding-bottom: 0px;
+    margin-bottom:-10px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    font-weight:300;
+    width :70%;
+    margin:auto;
+    padding: 0.4em 0 1em;
+    border-bottom: solid 1px;
+    border-bottom-color: rgb(156, 156, 156);
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #14B1FF !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    border-bottom:0px;
+    width:15px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top:-30px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.nav1{
+    padding: 15px 15px;
+}
+#open-bt{
+    /*text-decoration:none;*/
+    color:#777;;
+}
+
+a:hover, a:focus {
+    color:#14B1FF ;
+    text-decoration: none;
+}
+
+a.YIFANHEAD{
+    color:#14B1FF;
+}
+
+.navbar-brand .navbar-default .navbar-toggle:focus {
+    background-color: transparent ;
+}
+
+/*title font*/
+h1.title{
+    color:#14B1FF;
+    font-weight: 700;
+    font-size:2.75em;
+    letter-spacing:0.05em;
+    margin:0 0 .5em 0;
+}
+/**/
+.navbar .container{
+    margin-top:40px;
+}
+
+/*--------------------------------------*/
+.col-lg-12 h2 p{
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    font-size:22px;
+}
+
+/*img setting*/
+/*#project{
+    width:33%;
+    height:0px;
+    padding-bottom:33%;
+    position:relative;
+}*/
+@media (min-width: 900px){
+    .col-lg-4{
+        width:33%;
+        height:0px;
+        padding-bottom:33%;
+        position:relative;
+    }
+}
+
+@media (min-width: 569px) and (max-width:900px){
+    .col-md-6{
+        width:50%;
+        height:0px;
+        padding-bottom:50%;
+        position:relative;
+    }
+}
+
+@media (min-width: 0px) and (max-width:569px){
+    .col-sm-12{
+
+        width:100%;
+        height:0px;
+        padding-bottom:100%;
+        position:relative;
+    }
+}
+
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+    position:absolute;
+    width:70%;
+    height: 70%;
+    top:15%;
+    right: 15%;
+}
+
+
+/*.image{
+    text-align: center;
+}*/
+
+/*img{
+width:80%;
+height:80%;
+position:absolute;
+filter:brightness(70%);
+display: block;
+}*/
+
+/*img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}*/
+
+/*----------------------------------------*/
+
+/*text in image*/
+
+/*.img-title {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+}
+
+.centered{
+    text-align:center;
+}
+
+.content{
+/*    height: 0px;*/
+/*}*/
+
+/*.content p{
+    text-align: center;
+    font-size:12px;
+}
+
+.se-div{
+    height:100%;
+}*/
